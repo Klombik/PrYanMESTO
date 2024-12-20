@@ -1,5 +1,5 @@
 const config = {
-    baseUrl: 'https://nomoreparties.co/v1/frontend-st-cohort-201',
+    baseUrl: 'https://nomoreparties.co/v1/frontend-apf-cohort-202',
     headers: {
         authorization: 'dc32fb47-a080-428d-80db-935bf6d1f621',
         'Content-Type': 'application/json'
@@ -172,7 +172,7 @@ export const editPost = async (avatarUrl) => {
     }
 }
 
-fetch('https://nomoreparties.co/v1/frontend-st-cohort-201/cards', {
+fetch('https://nomoreparties.co/v1/frontend-apf-cohort-202/cards', {
         headers: {
             authorization: 'dc32fb47-a080-428d-80db-935bf6d1f621'
         }
